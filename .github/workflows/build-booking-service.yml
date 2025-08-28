@@ -12,6 +12,8 @@ on:
       - 'kong/plugins/**'
       - 'kong/consumers/**'
       - '.github/workflows/build-booking-service.yaml'
+permissions:
+  contents: write
 
 jobs:
   oas-to-kong:
